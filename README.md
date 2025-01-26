@@ -18,11 +18,13 @@ O programa:
 3. Compile o arquivo Java:
 
 ```bash
-javac nilo4.java
+javac diferenteProduto.java
 
+---
 4. Execute o programa:
 
-java nilo4
+java diferenteProduto
+---
 
 ##🕹️ Como usar
 Ao executar o programa, você será solicitado a:
@@ -31,10 +33,10 @@ Informar a matrícula (ou número) do funcionário.
 Informar o número de horas trabalhadas.
 Informar o salário por hora.
 O programa calculará o salário mensal e exibirá o resultado.
-
+---
 Exemplo
 Entrada:
-
+---
 Digite o número do funcionário:
 12345
 Digite quantas horas trabalhadas:
@@ -42,7 +44,7 @@ Digite quantas horas trabalhadas:
 Salário por hora trabalhada:
 20.50
 ---
-
+----
 saida: 
 O funcionário de matrícula 12345 recebeu salário de: 3280.0
 
