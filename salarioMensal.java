@@ -2,7 +2,7 @@ package proGitHub;
 
 import java.util.Scanner;
 
-public class diferenteProduto {
+public class salarioMensal {
 
 	public static void main(String[] args) {
 		Scanner dados = new Scanner(System.in);
