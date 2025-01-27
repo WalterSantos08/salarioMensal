@@ -1,60 +1,61 @@
-# Cálculo do Salário Mensal em Java 💼
+# Cálculo de Salário Mensal em Java 💼
 
-Este programa em Java calcula o salário mensal de um funcionário com base nas horas trabalhadas e no valor recebido por hora.
+Este programa em Java calcula o salário mensal de um funcionário com base no número de horas trabalhadas e no valor do salário por hora.
 
 ## 🗃 Descrição
+
 O programa:
 
-- Solicita ao usuário o número (ou matrícula) do funcionário.
-- Pede a quantidade de horas trabalhadas no mês.
-- Solicita o valor do salário por hora.
-- Calcula o salário total do mês usando a fórmula:
-  - **Salário Mensal = Horas Trabalhadas × Salário por Hora**
-- Exibe o salário do funcionário.
+1. Solicita ao usuário:
+   - O número de matrícula do funcionário.
+   - A quantidade de horas trabalhadas no mês.
+   - O valor do salário por hora.
+2. Calcula o salário mensal multiplicando o número de horas trabalhadas pelo valor do salário por hora.
+3. Exibe o salário mensal juntamente com o número de matrícula do funcionário.
 
 ## 🚀 Como executar
-1. Certifique-se de ter o Java JDK instalado em sua máquina.
+
+1. Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) instalado em sua máquina.
 2. Clone este repositório ou copie o código.
 3. Compile o arquivo Java:
-
-```bash
-javac diferenteProduto.java
-
----
+   ```bash
+   javac salarioMensal.java
+   ```
 4. Execute o programa:
+   ```bash
+   java salarioMensal
+   ```
 
-java diferenteProduto
----
+## 🕹️ Como usar
 
-##🕹️ Como usar
-Ao executar o programa, você será solicitado a:
+1. Ao executar o programa, insira as informações solicitadas:
+   - Número de matrícula do funcionário.
+   - Quantidade de horas trabalhadas.
+   - Salário por hora trabalhada.
+2. O programa calculará e exibirá o salário mensal.
 
-Informar a matrícula (ou número) do funcionário.
-Informar o número de horas trabalhadas.
-Informar o salário por hora.
-O programa calculará o salário mensal e exibirá o resultado.
----
-Exemplo
+### Exemplo
+
 Entrada:
----
-Digite o número do funcionário:
+```
+digite o numero do funcionário:
 12345
-Digite quantas horas trabalhadas:
+Digite quantas horas trabalhada:
 160
-Salário por hora trabalhada:
-20.50
----
-----
-saida: 
-O funcionário de matrícula 12345 recebeu salário de: 3280.0
+Salario por hora trabalhada:
+25.50
+```
 
----
+Saída:
+```
+o funcionário de matricula 12345 recebeu salário de: 4080.0
+```
 
 ## 🗂 Estrutura do código
-O código contém:
 
-Leitura da entrada do usuário: Usa a classe Scanner para capturar as informações fornecidas.
-Cálculo do salário: Multiplica o número de horas trabalhadas pelo salário por hora.
-Exibição do resultado: Mostra o salário mensal e a matrícula do funcionário.
+O código é composto por:
 
-
+- **Leitura da entrada do usuário**: Usando `Scanner` para capturar os dados do funcionário.
+- **Cálculo do salário**: Multiplicação do número de horas trabalhadas pelo salário por hora.
+- **Exibição do resultado**: O salário mensal calculado é exibido junto ao número de matrícula do funcionário.
+- 
