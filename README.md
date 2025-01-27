@@ -58,4 +58,5 @@ O código é composto por:
 - **Leitura da entrada do usuário**: Usando `Scanner` para capturar os dados do funcionário.
 - **Cálculo do salário**: Multiplicação do número de horas trabalhadas pelo salário por hora.
 - **Exibição do resultado**: O salário mensal calculado é exibido junto ao número de matrícula do funcionário.
+  
   ---
